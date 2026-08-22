@@ -49,6 +49,11 @@ What if it is about integrating them?
 I call this **Work-Life Integration**.
 
 ---
+### Want the visual version?
+
+If you'd rather see the key ideas in a few minutes, I've created a visual summary of this article.
+
+**[Download the Work-Life Integration Infographic](https://docs.google.com/forms/d/e/1FAIpQLSdIumslwMNwJP4NEN7eyETYSFcVOkyAiwcHk_mlNbxpFmctVg/viewform?usp=sharing&ouid=112084670522190592584)**
 
 ## The problem with "work-life balance"
 
@@ -165,6 +170,14 @@ The emerging definition is closer to:
 That's a profound shift.
 
 And organizations that understand this shift will eventually build very different workplaces from those that don't.
+
+---
+
+### Want the key ideas at a glance?
+
+If you're enjoying the article but want to see the bigger picture visually, I've put the main ideas into a concise infographic.
+
+**[Download the Work-Life Integration Infographic](https://docs.google.com/forms/d/e/1FAIpQLSdIumslwMNwJP4NEN7eyETYSFcVOkyAiwcHk_mlNbxpFmctVg/viewform?usp=sharing&ouid=112084670522190592584)**
 
 ---
 
@@ -709,3 +722,17 @@ That is Work-Life Integration.
 And perhaps it's time we stopped trying to balance the old world—
 
 **and started designing the new one.**
+
+---
+
+## Thanks for reading.
+
+If you've made it all the way to the end, thank you for giving this article your time.
+
+There is a lot to think about when it comes to the future of work, and sometimes it's easier to absorb the big ideas visually.
+
+So, if you'd like a shorter visual version of everything we've discussed, I've created an infographic that brings the key ideas together.
+
+**[Download the Work-Life Integration Infographic](https://docs.google.com/forms/d/e/1FAIpQLSdIumslwMNwJP4NEN7eyETYSFcVOkyAiwcHk_mlNbxpFmctVg/viewform?usp=sharing&ouid=112084670522190592584)**
+
+---
