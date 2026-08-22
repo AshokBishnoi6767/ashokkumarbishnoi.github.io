@@ -1,0 +1,18 @@
+title: "Ashok Kumar Bishnoi"
+description: "Writing on technology, work, business, wellbeing, learning and spirituality."
+url: "https://ashokkumarbishnoi.com"
+baseurl: ""
+
+markdown: kramdown
+permalink: /blog/:categories/:title/
+
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
