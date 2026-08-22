@@ -1,0 +1,97 @@
+---
+layout: default
+title: "Writing"
+description: "Ideas on technology, work, business, wellbeing, learning and spirituality."
+---
+
+<section class="blog-home">
+
+  <header class="blog-hero">
+    <p class="blog-eyebrow">WRITING</p>
+
+    <h1>Ideas, lessons & observations.</h1>
+
+    <p class="blog-intro">
+      I write about technology and work, business and leadership,
+      health and wellbeing, learning, and the quieter questions
+      around life and spirituality.
+    </p>
+  </header>
+
+  <nav class="blog-categories" aria-label="Blog categories">
+    <a href="{{ '/blog/' | relative_url }}">All</a>
+
+    <a href="{{ '/blog/#technology-work' | relative_url }}">
+      Technology & Work
+    </a>
+
+    <a href="{{ '/blog/#business-leadership' | relative_url }}">
+      Business & Leadership
+    </a>
+
+    <a href="{{ '/blog/#health-wellbeing' | relative_url }}">
+      Health & Wellbeing
+    </a>
+
+    <a href="{{ '/blog/#learning' | relative_url }}">
+      Learning
+    </a>
+
+    <a href="{{ '/blog/#spirituality' | relative_url }}">
+      Spirituality
+    </a>
+  </nav>
+
+  <section class="blog-grid">
+
+    {% for post in site.posts %}
+
+      <article class="blog-card">
+
+        {% if post.image %}
+          <a href="{{ post.url | relative_url }}" class="blog-card-image">
+            <img
+              src="{{ post.image | relative_url }}"
+              alt="{{ post.image_alt | default: post.title }}"
+              loading="lazy">
+          </a>
+        {% endif %}
+
+        <div class="blog-card-body">
+
+          {% if post.category %}
+            <div class="blog-card-category">
+              {{ post.category }}
+            </div>
+          {% endif %}
+
+          <h2>
+            <a href="{{ post.url | relative_url }}">
+              {{ post.title }}
+            </a>
+          </h2>
+
+          {% if post.description %}
+            <p>{{ post.description }}</p>
+          {% endif %}
+
+          <div class="blog-card-meta">
+            <span>
+              {{ post.date | date: "%B %-d, %Y" }}
+            </span>
+
+            {% if post.reading_time %}
+              <span>·</span>
+              <span>{{ post.reading_time }} min read</span>
+            {% endif %}
+          </div>
+
+        </div>
+
+      </article>
+
+    {% endfor %}
+
+  </section>
+
+</section>
